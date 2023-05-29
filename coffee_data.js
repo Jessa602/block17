@@ -5,7 +5,7 @@
 // a. All prices should be numbers.
 // b. All items should be strings.
 // c. Objects and properties should have commas seperating them.
-// d. Connect the coffee_data.js file to the index.js file.
+// d. Connect the coffee_data.js file to the index.js file. ---forEach method
 
 const coffeeMenu = [
     {
@@ -17,7 +17,7 @@ const coffeeMenu = [
         name: "espresso",
         price: 5,
         seasonal: false,
-    }
+    },
     {
         name: "latte",
         price: 5,
@@ -32,12 +32,12 @@ const coffeeMenu = [
         name: "macchiato",
         price: 6,
         seasonal: false,
-    }
+    },
     {
         name: "americano",
         price: 7,
         seasonal: false,
-    }
+    },
     {
         name: "iced coffee",
         price: 6,
@@ -47,7 +47,7 @@ const coffeeMenu = [
         name: "frappe",
         price: 8,
         seasonal: false,
-    }
+    },
     {
         name: "cuban espresso",
         price: 10,
